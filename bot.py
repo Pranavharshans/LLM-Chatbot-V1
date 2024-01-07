@@ -3,7 +3,7 @@ import openai
 import json
 from difflib import SequenceMatcher
 
-openai.api_base = "http://localhost:1234/v1"  # point to the local server
+openai.api_base = "http://localhost:1234/v1"  # point to the local server (use llm studio to host llm in local machine)
 openai.api_key = ""  # no need for an API key
 
 # Specify the current working directory
